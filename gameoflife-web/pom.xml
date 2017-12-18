@@ -42,18 +42,18 @@
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.1.1</version>
-                <configuration>
-                    <manifest>
-                        <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                    </manifest>
-                    <archive>
-                        <manifestEntries>
-                            <Specification-Title>${project.name}</Specification-Title>
-                            <Specification-Version>${project.version}</Specification-Version>
-                            <Implementation-Version>${BUILD_TAG}</Implementation-Version>
-                        </manifestEntries>
-                    </archive>
-                </configuration>
+                <!--<configuration>-->
+                    <!--<manifest>-->
+                        <!--<addDefaultImplementationEntries>true</addDefaultImplementationEntries>-->
+                    <!--</manifest>-->
+                    <!--<archive>-->
+                        <!--<manifestEntries>-->
+                            <!--<Specification-Title>${project.name}</Specification-Title>-->
+                            <!--<Specification-Version>${project.version}</Specification-Version>-->
+                            <!--<Implementation-Version>${BUILD_TAG}</Implementation-Version>-->
+                        <!--</manifestEntries>-->
+                    <!--</archive>-->
+                <!--</configuration>-->
             </plugin>
             <plugin>
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
